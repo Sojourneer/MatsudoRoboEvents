@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matsudo Robot Events - イベント一覧</title>
+  <meta name="description" content="松戸ロボット関連のイベント一覧です。開催予定のイベントや過去のイベント情報をご覧いただけます。">
+  <link rel="canonical" href="https://matsudoroboevents.info/">
+  <meta property="og:site_name" content="Matsudo Robot Events">
+  <meta property="og:title" content="Matsudo Robot Events - イベント一覧">
+  <meta property="og:description" content="松戸ロボット関連のイベント一覧です。開催予定のイベントや過去のイベント情報をご覧いただけます。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://matsudoroboevents.info/">
+  <meta property="og:locale" content="ja_JP">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="hd">
+      <a class="brand" href="index.html">
+        <img src="images/logo-mtic-full.png" alt="Matsudo Robot Events" width="300" height="60">
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Key Visual Section -->
+    <section class="kv">
+      <picture>
+        <source media="(max-width:640px)" srcset="images/kv-sp.jpg">
+        <img src="images/kv-sp.jpg" alt="松戸市のイベント風景" width="1400" height="600" fetchpriority="high">
+      </picture>
+      <div class="kv-text">
+        <p class="kv-org">Matsudo Robot Events</p>
+        <h1>ロボットイベント<span>情報サイト</span></h1>
+      </div>
+    </section>
+
+    <!-- Prolog Section -->
+    <section class="wrap">
+      <div class="prolog" id="prolog">
+        <h3>当サイトについて</h3>
+        <p>このサイトは、松戸技術革新センター（M-TIC）および関連団体が主催するロボット関連イベントの情報をお届けするランディングサイトです。</p>
+        <p>各イベントの詳細ページへのリンクから、開催日程、参加方法、イベント内容などの詳しい情報をご確認ください。</p>
+      </div>
+    </section>
+
+    <!-- Event List Section -->
+    <section class="wrap">
+      <h2>イベント一覧</h2>
+      <p class="sec-en">Events</p>
+      <div id="event-list">
+        <!-- Events will be populated here by JavaScript -->
+      </div>
+    </section>
+
+    <!-- Epilog Section -->
+    <section class="wrap">
+      <div class="epilog" id="epilog">
+        <h3>新しいイベント情報</h3>
+        <p>新しいイベントが追加される際は、このページが更新されます。定期的にご確認ください。</p>
+        <p>松戸技術革新センターについての詳しい情報は、<a href="https://matsudo-robotics.github.io/">公式サイト</a>をご覧ください。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>© 2026 Matsudo Robot Events</div>
+      <div>
+        <a href="https://matsudo-robotics.github.io/">M-TIC公式サイト</a> ／
+        <a href="https://x.com/Matsudo_Robo">X</a> ／
+        <a href="https://github.com/matsudo-robotics">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
