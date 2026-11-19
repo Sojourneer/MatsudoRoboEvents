@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "subdomain": "mtl-spring2027",
+      "titleJa": "松戸ロボットラボ 春2027",
+      "titleEng": "Matsudo Robot Lab Spring 2027",
+      "dateFrom": "2027-04-10",
+      "dateTo": "2027-04-12",
+      "organization": "M-TIC",
+      "description": "春のロボットコンテスト。全国から参加者が集結します。自律走行ロボットのタイムアタックが予定されています。"
+    },
+    {
+      "subdomain": "mtl-winter2027",
+      "titleJa": "松戸ロボットラボ 冬2027",
+      "titleEng": "Matsudo Robot Lab Winter 2027",
+      "dateFrom": "2027-01-31",
+      "dateTo": "2027-01-31",
+      "organization": "MatsuRobo",
+      "description": "没入感のある照明と光を使ったゲーム。"
+    },
+    {
+      "subdomain": "mtic-summer2026",
+      "titleJa": "M-TIC 夏のロボット展示会 2026",
+      "titleEng": "M-TIC Summer Robot Exhibition 2026",
+      "dateFrom": "2026-08-20",
+      "dateTo": "2026-08-22",
+      "organization": "M-TIC",
+      "description": "M-TICが開発したロボットの展示会。開発の歩みと最新プロジェクトをご紹介します。"
+    },
+    {
+      "url": "https://example.com/robot-summit-2027?utm_source=events&utm_campaign=spring#registration",
+      "titleJa": "全国ロボット技術サミット 2027",
+      "titleEng": "National Robot Technology Summit 2027",
+      "dateFrom": "2027-05-15",
+      "dateTo": "2027-05-17",
+      "organization": "Japan Robot Association",
+      "description": "全国のロボット開発者が集結し、最新技術をシェアする大規模カンファレンス。"
+    }
+  ]
+}
+
+
