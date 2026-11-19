@@ -17,7 +17,8 @@ function populateEvents(events) {
     const status = getEventStatus(event.dateFrom, event.dateTo);
     const statusClass = `event-${status}`;
     const dateStr = formatEventDate(event.dateFrom, event.dateTo);
-    const eventUrl = `https://${event.subdomain}.matsudoroboevents.info/`;
+    // Use url property if provided, otherwise construct from subdomain
+    const eventUrl = event.url ? event.url : `https://${event.subdomain}.matsudoroboevents.info/`;
 
     return `
       <article class="event-card ${statusClass}">
